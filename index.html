@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travis Scott</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+            height: 100vh;
+            background-image: url('rodeots.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: top;        
+        }
+        .container {
+            max-width: 500px;
+            margin-top: 50px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            background-color: white;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            padding: 15px;
+            margin: 0;
+            background-color: #1d1d1d;
+            color: white;
+        }
+        .video {
+            position: relative;
+            padding-bottom: 50%;
+            height: 0;
+            overflow: hidden;
+        }
+        .video iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        .descripcion {
+            padding: 15px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Travis Scott - SICKO MODE</h1>
+        <div class="video">
+            <!-- YouTube iframe para un video de Travis Scott (SICKO MODE) -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/BuNBLjJzRoo?si=YRIXBsXWUvC5bLn5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="descripcion">
+            <p>Travis Scott ft. Drake - SICKO MODE (Official Video)</p>
+            <p>Este iframe muestra uno de los videos más populares de Travis Scott. Puedes cambiarlo por cualquier otro video modificando el ID en el atributo "src" del iframe.</p>
+        </div>
+    </div>
+</body>
+</html>
